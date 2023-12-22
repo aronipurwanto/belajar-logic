@@ -1,5 +1,7 @@
 package com.bootcamp.logic02;
 
+import com.bootcamp.utils.PrintArray;
+
 import java.util.Scanner;
 
 public class Logic02Soal08 {
@@ -44,18 +46,6 @@ public class Logic02Soal08 {
         }
 
         // cetak array
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                // kesamping
-                if(array[i][j] == 0){
-                    System.out.print("\t");
-                    continue;
-                }
-                System.out.print(array[i][j] + "\t");
-            }
-            // pindah baris
-            System.out.println("\n");
-        }
-
+        PrintArray.printArray(array);
     }
 }
