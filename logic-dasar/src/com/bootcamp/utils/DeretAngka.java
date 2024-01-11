@@ -18,6 +18,15 @@ public class DeretAngka {
         return array;
     }
 
+    public static int[] ganjil(int n){
+        int[] array = new int[n];
+        for (int i = 0; i < n; i++) {
+            array[i] = (i*2)+1;
+        }
+
+        return array;
+    }
+
     public static int[] pangkat(int n, int p){
         int[] array = new int[n];
         for (int i = 0; i < n; i++) {
