@@ -6,6 +6,7 @@ public class PrintArray {
         for (int x = 0; x < array.length; x++) {
             System.out.print(array[x] +"\t");
         }
+        System.out.println();
     }
 
     public static void printArray(String[] array){
@@ -13,6 +14,7 @@ public class PrintArray {
         for (int x = 0; x < array.length; x++) {
             System.out.print(array[x] +"\t");
         }
+        System.out.println();
     }
 
     public static void printArray(char[] array){
@@ -20,6 +22,7 @@ public class PrintArray {
         for (int x = 0; x < array.length; x++) {
             System.out.print(array[x] +"\t");
         }
+        System.out.println();
     }
 
     public static void printArray(int[][] array){
@@ -35,6 +38,7 @@ public class PrintArray {
             // pindah baris
             System.out.println("\n");
         }
+        System.out.println();
     }
 
     public static void printArray(String[][] array){
@@ -50,6 +54,7 @@ public class PrintArray {
             // pindah baris
             System.out.println("\n");
         }
+        System.out.println();
     }
 
     public static void printArray(char[][] array){
@@ -65,5 +70,6 @@ public class PrintArray {
             // pindah baris
             System.out.println("\n");
         }
+        System.out.println();
     }
 }

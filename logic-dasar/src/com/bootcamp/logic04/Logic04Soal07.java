@@ -50,7 +50,7 @@ public class Logic04Soal07 {
             }
             geser+= n-1;
         }
-
+        PrintArray.printArray(DeretAngka.index(p));
         PrintArray.printArray(array);
     }
 }
