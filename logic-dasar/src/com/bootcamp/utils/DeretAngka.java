@@ -18,10 +18,14 @@ public class DeretAngka {
         return array;
     }
 
-    public static int[] ganjil(int n){
+    public static int[] ganjil(int n, int position, int prefix){
         int[] array = new int[n];
         for (int i = 0; i < n; i++) {
-            array[i] = (i*2)+1;
+            if(i%position == position-1){
+                array[i] = prefix;
+            }else {
+                array[i] = (i * 2) + 1;
+            }
         }
 
         return array;
